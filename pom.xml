@@ -22,7 +22,7 @@
             <artifactId>aspose-cells</artifactId>
             <version>18.4</version>
             <scope>system</scope>
-            <systemPath>/home/spis/aspose-cells-18.4.jar</systemPath>
+            <systemPath>/home/apis/aspose-cells-18.4.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.glassfish</groupId>
@@ -34,42 +34,42 @@
             <artifactId>primefaces</artifactId>
             <version>5.1</version>
 			<scope>system</scope>
-			<systemPath>/home/spis/primefaces-5.1.jar</systemPath>
+			<systemPath>/home/apis/primefaces-5.1.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.primefaces.extensions</groupId>
             <artifactId>primefaces-extensions</artifactId>
             <version>3.0.0</version>
             <scope>system</scope>
-			<systemPath>/home/spis/primefaces-extensions-3.0.0.jar</systemPath>
+			<systemPath>/home/apis/primefaces-extensions-3.0.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.primefaces.themes</groupId>  
             <artifactId>all-themes</artifactId>  
             <version>1.0.10</version>
             <scope>system</scope>
-			<systemPath>/home/spis/all-themes-1.0.10.jar</systemPath>
+			<systemPath>/home/apis/all-themes-1.0.10.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
             <scope>system</scope>
-            <systemPath>/home/spis/javaee-web-api-7.0.jar</systemPath>
+            <systemPath>/home/apis/javaee-web-api-7.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.2.4</version>
             <scope>system</scope>
-            <systemPath>/home/spis/gson-2.2.4.jar</systemPath>
+            <systemPath>/home/apis/gson-2.2.4.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.1</version>
             <scope>system</scope>
-            <systemPath>/home/spis/commons-lang3-3.1.jar</systemPath>
+            <systemPath>/home/apis/commons-lang3-3.1.jar</systemPath>
         </dependency>
     </dependencies>
 
