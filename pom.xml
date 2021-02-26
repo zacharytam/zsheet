@@ -105,15 +105,15 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>copy-dependencies</id>
-                        <phase>package</phase>
+                        <id>copy-dependencies-system</id>
+                        <phase>prepare-package</phase>
                         <goals>
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/lib</outputDirectory>
+                            <!--<outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/lib</outputDirectory>-->
                             <includeScope>system</includeScope>
-                            <excludeTransitive>false</excludeTransitive>
+                            <excludeTransitive>true</excludeTransitive>
                         </configuration>
                     </execution>
                 </executions>
