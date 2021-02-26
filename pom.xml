@@ -93,9 +93,9 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/lib</outputDirectory>
+                            <outputDirectory>${project.build.directory}/${project.build.finalName}.war/WEB-INF/lib</outputDirectory>
                             <includeScope>system</includeScope>
-                            
+
                         </configuration>
                     </execution>
                     <execution>
