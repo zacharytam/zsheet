@@ -28,6 +28,8 @@
             <groupId>org.glassfish</groupId>
             <artifactId>javax.faces</artifactId>
             <version>2.2.8</version>
+            <scope>system</scope>
+            <systemPath>/home/apis/javax.faces-2.2.8.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.primefaces</groupId>
