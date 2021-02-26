@@ -106,22 +106,15 @@
                     </execution>
                     <execution>
                         <id>copy-dependencies-system</id>
-                        <phase>prepare-package</phase>
+                        <phase>package</phase>
                         <goals>
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/lib/</outputDirectory>
+                            <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/lib</outputDirectory>
                             <includeScope>system</includeScope>
                             <excludeTransitive>false</excludeTransitive>
                         </configuration>
-                    </execution>
-                    <execution>
-                        <id>install</id>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>sources</goal>
-                        </goals>
                     </execution>
                 </executions>
             </plugin>
