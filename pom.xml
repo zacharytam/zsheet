@@ -54,7 +54,7 @@
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
-            <scope>provided</scope>
+            <scope>system</scope>
             <systemPath>/home/apis/javaee-web-api-7.0.jar</systemPath>
         </dependency>
     </dependencies>
