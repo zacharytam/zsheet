@@ -129,6 +129,7 @@
                         <configuration>
                             <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/lib</outputDirectory>
                             <includeScope>system</includeScope>
+                            <excludeArtifactIds>javax:javaee-web-api:7.0</excludeArtifactIds>
                             <excludeTransitive>false</excludeTransitive>
                         </configuration>
                     </execution>
